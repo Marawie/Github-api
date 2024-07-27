@@ -1,31 +1,31 @@
 # GitHub Repositories API
 
-## Opis
+## Description
 
-To jest aplikacja oparta na Spring Boot, która pozwala na listowanie wszystkich repozytoriów GitHub użytkownika, które nie są forkami. Dodatkowo zwraca informacje o gałęziach i ostatnim commit sha.
+This is a Spring Boot-based application that allows you to list all of a user's GitHub repositories that are not forks. In addition, it returns branch information and the last commit sha.
 
-## Wymagania
+## Requirements
 
-- Java 17 lub nowsza
+- Java 17 or later
 - Maven
-- Konto GitHub z wygenerowanym [personal access token](https://github.com/settings/tokens)
+- GitHub account with generated [personal access token](https://github.com/settings/tokens)
 
-## Instalacja
+## Installation
 
-1. Sklonuj to repozytorium:
+1. Clone this repository:
     ```sh
-    git clone https://github.com/yourusername/github-repos-api.git
+    git clone https://github.com/Marawie/github-repos-api.git
     cd github-repos-api
     ```
 
-2. Dodaj swój token GitHub do pliku `src/main/resources/application.properties`:
+2. Add your GitHub token to the `src/main/resources/application.properties`:
     ```properties
     github.token=your_github_token_here
     ```
 
-## Uruchomienie
+## Launch
 
-Aby uruchomić aplikację, wykonaj następujące polecenie:
+To start the application, run the following command:
 
 ```sh
 ./mvnw spring-boot:run
