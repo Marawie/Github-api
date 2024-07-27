@@ -15,7 +15,6 @@ This is a Spring Boot-based application that allows you to list all of a user's 
 1. Clone this repository:
     ```sh
     git clone https://github.com/Marawie/github-repos-api.git
-    cd github-repos-api
     ```
 
 2. Add your GitHub token to the `src/main/resources/application.properties`:
